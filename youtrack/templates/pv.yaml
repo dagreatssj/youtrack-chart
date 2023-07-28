@@ -1,0 +1,17 @@
+{{- range .Values.volumes }}
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: {{ .volume.name }}-pv
+spec:
+  capacity:
+    storage: {{ .volume.storageCapacity }}
+  volumeMode: {{ .volume.mode }}
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: {{ .volume.reclaimPolicy }}
+  storageClassName: {{ .volume.storageClassName }}
+  local:
+    path: {{ .volume.localMountPath }}
+{{- end }}
