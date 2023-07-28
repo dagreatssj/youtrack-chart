@@ -81,17 +81,37 @@ affinity: {}
 volumes:
   - volume:
       name: youtrack-data
+      mode: Filesystem
+      reclaimPolicy: Retain
       mountPath: /opt/youtrack/data
+      localMountPath: /mnt/persistent/data
       storage: 10Gi
+      storageCapacity: 10Gi
+      storageClassName: youtrack-data-localstorage
   - volume:
       name: youtrack-conf
+      mode: Filesystem
+      reclaimPolicy: Retain
       mountPath: /opt/youtrack/conf
+      localMountPath: /mnt/persistent/conf
       storage: 1Gi
+      storageCapacity: 1Gi
+      storageClassName: youtrack-conf-localstorage
   - volume:
       name: youtrack-logs
+      mode: Filesystem
+      reclaimPolicy: Retain
       mountPath: /opt/youtrack/logs
+      localMountPath: /mnt/persistent/logs
       storage: 2Gi
+      storageCapacity: 2Gi
+      storageClassName: youtrack-logs-localstorage
   - volume:
       name: youtrack-backups
-      mountPath: /opt/youtrack/backups
-      storage: 10gi
+      mode: Filesystem
+      reclaimPolicy: Retain
+      mountPath: /opt/youtrack/
+      localMountPath: /mnt/persistent/logs
+      storage: 10Gi
+      storageCapacity: 10Gi
+      storageClassName: youtrack-backups-localstorage
