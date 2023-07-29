@@ -69,7 +69,7 @@ resources: {}
   #   memory: 128Mi
 
 nodeSelector:
-  kubenetes.io/hostname: hostname
+  kubernetes.io/hostname: hostname
 
 selectorLabels: {}
 
