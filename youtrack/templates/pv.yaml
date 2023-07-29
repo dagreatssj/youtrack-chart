@@ -14,4 +14,12 @@ spec:
   storageClassName: {{ .volume.storageClassName }}
   local:
     path: {{ .volume.localMountPath }}
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: youtrack-specific
+              operator: In
+              values:
+                - localstore
 {{- end }}

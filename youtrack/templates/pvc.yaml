@@ -11,4 +11,10 @@ spec:
   resources:
     requests:
       storage: {{ .volume.storage }}
+  selector:
+    matchExpressions:
+      - key: youtrack-specific
+        operator: In
+        values:
+          - localstore
 {{- end }}
