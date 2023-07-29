@@ -33,6 +33,6 @@ spec:
               protocol: TCP
           volumeMounts:
             {{- range .Values.volumes }}
-            - name: {{ .volume.name }}-volume
+            - name: {{ .volume.name }}
               mountPath: {{ .volume.mountPath}}
             {{- end}}
