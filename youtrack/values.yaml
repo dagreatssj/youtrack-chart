@@ -87,7 +87,6 @@ volumes:
       localMountPath: /mnt/persistent/data
       storage: 10Gi
       storageCapacity: 10Gi
-      storageClassName: youtrack-data-localstorage
   - volume:
       name: youtrack-conf
       mode: Filesystem
@@ -96,7 +95,6 @@ volumes:
       localMountPath: /mnt/persistent/conf
       storage: 1Gi
       storageCapacity: 1Gi
-      storageClassName: youtrack-conf-localstorage
   - volume:
       name: youtrack-logs
       mode: Filesystem
@@ -105,7 +103,6 @@ volumes:
       localMountPath: /mnt/persistent/logs
       storage: 2Gi
       storageCapacity: 2Gi
-      storageClassName: youtrack-logs-localstorage
   - volume:
       name: youtrack-backups
       mode: Filesystem
@@ -114,4 +111,3 @@ volumes:
       localMountPath: /mnt/persistent/logs
       storage: 10Gi
       storageCapacity: 10Gi
-      storageClassName: youtrack-backups-localstorage
