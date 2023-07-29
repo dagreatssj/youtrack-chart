@@ -3,6 +3,16 @@ entries:
   youtrack:
     - apiVersion: v2
       appVersion: 2023.1.16998
+      created: "2023-07-29T00:59:05.483985862Z"
+      description: A Helm chart to deploy YouTrack
+      digest: 26f021ed11e44417255cbb44a58a634d39b6e5126b8edeb07c14113a2ce53868
+      name: youtrack
+      type: application
+      urls:
+        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.3/youtrack-1.1.3.tgz
+      version: 1.1.3
+    - apiVersion: v2
+      appVersion: 2023.1.16998
       created: "2023-07-29T00:44:59.531632004Z"
       description: A Helm chart to deploy YouTrack
       digest: 98d089b85d58f2b7386f49ecedb21f3e0d21b4e161935fd7135710d9e9fe1727
@@ -41,4 +51,4 @@ entries:
       urls:
         - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.0.0/youtrack-1.0.0.tgz
       version: 1.0.0
-generated: "2023-07-29T00:44:59.531654983Z"
+generated: "2023-07-29T00:59:05.484018344Z"
