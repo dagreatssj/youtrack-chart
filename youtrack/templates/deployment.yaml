@@ -15,8 +15,10 @@ spec:
       labels:
         app: {{ .Chart.Name }}
     spec:
+      {{- range $key, $value := .Values.nodeSelector }}
       nodeSelector:
-        youtrack-specific: localstore
+        {{ $key }}: {{ $value | quote }}
+      {{- end }}
       volumes:
         {{- range .Values.volumes}}
         - name: {{ .volume.name }}

@@ -1,3 +1,6 @@
+{{- $nodeSelectors := keys .Values.nodeSelector }}
+{{- $nsHostnameKey := first $nodeSelectors }}
+{{- $nsHostnameValue := index .Values.nodeSelector $nsHostnameKey }}
 {{- range .Values.volumes }}
 ---
 apiVersion: v1
@@ -17,8 +20,8 @@ spec:
     required:
       nodeSelectorTerms:
         - matchExpressions:
-            - key: youtrack-specific
+            - key: {{ $nsHostnameKey }}
               operator: In
               values:
-                - localstore
+                - {{ $nsHostnameValue }}
 {{- end }}
