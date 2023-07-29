@@ -2,7 +2,7 @@ apiVersion: v2
 name: youtrack
 description: A Helm chart to deploy YouTrack
 type: application
-version: 1.1.1
+version: 1.1.2
 
 ### This matches the latest tag as of July 21, 2023
 ### https://hub.docker.com/r/jetbrains/youtrack/tags
