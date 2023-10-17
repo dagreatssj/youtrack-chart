@@ -1,74 +1,84 @@
 apiVersion: v1
 entries:
   youtrack:
-    - apiVersion: v2
-      appVersion: 2023.1.16998
-      created: "2023-07-29T01:44:37.078691516Z"
-      description: A Helm chart to deploy YouTrack
-      digest: ad58d98f8f44ba1ff84a37106148973735921c08446febd1ab844d3580b43485
-      name: youtrack
-      type: application
-      urls:
-        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.2.1/youtrack-1.2.1.tgz
-      version: 1.2.1
-    - apiVersion: v2
-      appVersion: 2023.1.16998
-      created: "2023-07-29T01:24:10.529625523Z"
-      description: A Helm chart to deploy YouTrack
-      digest: 595cb50dc791dd441f473a34a0a326995874ac7d2076ad17bf3332d7d925ccb7
-      name: youtrack
-      type: application
-      urls:
-        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.2.0/youtrack-1.2.0.tgz
-      version: 1.2.0
-    - apiVersion: v2
-      appVersion: 2023.1.16998
-      created: "2023-07-29T00:59:05.483985862Z"
-      description: A Helm chart to deploy YouTrack
-      digest: 26f021ed11e44417255cbb44a58a634d39b6e5126b8edeb07c14113a2ce53868
-      name: youtrack
-      type: application
-      urls:
-        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.3/youtrack-1.1.3.tgz
-      version: 1.1.3
-    - apiVersion: v2
-      appVersion: 2023.1.16998
-      created: "2023-07-29T00:44:59.531632004Z"
-      description: A Helm chart to deploy YouTrack
-      digest: 98d089b85d58f2b7386f49ecedb21f3e0d21b4e161935fd7135710d9e9fe1727
-      name: youtrack
-      type: application
-      urls:
-        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.2/youtrack-1.1.2.tgz
-      version: 1.1.2
-    - apiVersion: v2
-      appVersion: 2023.1.16998
-      created: "2023-07-29T00:14:07.723277209Z"
-      description: A Helm chart to deploy YouTrack
-      digest: 59b739fb7f735429c695497885999e412b68d7b9bcaae3d6ab064302f45d52a8
-      name: youtrack
-      type: application
-      urls:
-        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.1/youtrack-1.1.1.tgz
-      version: 1.1.1
-    - apiVersion: v2
-      appVersion: 2023.1.16998
-      created: "2023-07-28T22:46:35.502192113Z"
-      description: A Helm chart to deploy YouTrack
-      digest: 4b0a400477cd5c1f74a4cd3457e4e98d501f5b77cdef9d57dee9fd50d24b7f6a
-      name: youtrack
-      type: application
-      urls:
-        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.0/youtrack-1.1.0.tgz
-      version: 1.1.0
-    - apiVersion: v2
-      appVersion: 2023.1.16998
-      created: "2023-07-28T01:01:32.862842848Z"
-      description: A Helm chart to deploy YouTrack
-      digest: cb92638f5e3e937fde7433dc3cf571592498caeae43c46412755fe2f55625e2a
-      name: youtrack
-      type: application
-      urls:
-        - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.0.0/youtrack-1.0.0.tgz
-      version: 1.0.0
-generated: "2023-07-29T01:44:37.078754042Z"
+  - apiVersion: v2
+    appVersion: 2023.2.19783
+    created: "2023-10-17T01:01:10.489723913Z"
+    description: A Helm chart to deploy YouTrack
+    digest: b1cd9f69d9da1ce6e3d0e624a7932c582ab4c950e8f131a613f416ed38219161
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.3.0/youtrack-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
+    appVersion: 2023.1.16998
+    created: "2023-07-29T01:44:37.078691516Z"
+    description: A Helm chart to deploy YouTrack
+    digest: ad58d98f8f44ba1ff84a37106148973735921c08446febd1ab844d3580b43485
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.2.1/youtrack-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v2
+    appVersion: 2023.1.16998
+    created: "2023-07-29T01:24:10.529625523Z"
+    description: A Helm chart to deploy YouTrack
+    digest: 595cb50dc791dd441f473a34a0a326995874ac7d2076ad17bf3332d7d925ccb7
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.2.0/youtrack-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
+    appVersion: 2023.1.16998
+    created: "2023-07-29T00:59:05.483985862Z"
+    description: A Helm chart to deploy YouTrack
+    digest: 26f021ed11e44417255cbb44a58a634d39b6e5126b8edeb07c14113a2ce53868
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.3/youtrack-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v2
+    appVersion: 2023.1.16998
+    created: "2023-07-29T00:44:59.531632004Z"
+    description: A Helm chart to deploy YouTrack
+    digest: 98d089b85d58f2b7386f49ecedb21f3e0d21b4e161935fd7135710d9e9fe1727
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.2/youtrack-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
+    appVersion: 2023.1.16998
+    created: "2023-07-29T00:14:07.723277209Z"
+    description: A Helm chart to deploy YouTrack
+    digest: 59b739fb7f735429c695497885999e412b68d7b9bcaae3d6ab064302f45d52a8
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.1/youtrack-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 2023.1.16998
+    created: "2023-07-28T22:46:35.502192113Z"
+    description: A Helm chart to deploy YouTrack
+    digest: 4b0a400477cd5c1f74a4cd3457e4e98d501f5b77cdef9d57dee9fd50d24b7f6a
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.1.0/youtrack-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 2023.1.16998
+    created: "2023-07-28T01:01:32.862842848Z"
+    description: A Helm chart to deploy YouTrack
+    digest: cb92638f5e3e937fde7433dc3cf571592498caeae43c46412755fe2f55625e2a
+    name: youtrack
+    type: application
+    urls:
+    - https://github.com/dagreatssj/youtrack-chart/releases/download/youtrack-1.0.0/youtrack-1.0.0.tgz
+    version: 1.0.0
+generated: "2023-10-17T01:01:10.489757447Z"
