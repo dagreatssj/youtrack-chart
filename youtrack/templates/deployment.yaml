@@ -25,6 +25,9 @@ spec:
           persistentVolumeClaim:
             claimName: {{ .volume.name }}-pvc
         {{- end }}
+      securityContext:
+        fsGroup: 13001
+        runAsUser: 13001
       containers:
         - name: {{ .Chart.Name }}
           image: {{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}
