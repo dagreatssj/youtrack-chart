@@ -1,2 +1,1 @@
 # YouTrack Helm Chart
-
